@@ -1,0 +1,175 @@
+/* general */
+/* textos */
+p {
+  color: green;
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  padding: 15px;
+  font-family: 'Georama', sans-serif;
+  font-style: normal;
+  font-size: 30px;
+}
+
+
+h2 {
+  color: #7E8CFF;
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+}
+
+text {
+  font-family: 'Georama', sans-serif;
+}
+
+li {
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  width: auto;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* menu */
+
+.nav--titulo-principal a {
+  color: #7E8CFF;
+  text-decoration: none;
+}
+
+.headerEdit {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#E6FFF0), to(white));
+  background-image: linear-gradient(#E6FFF0, white);
+  position: relative;
+}
+
+.nav-linkEdit {
+  text-decoration: none;
+  text-shadow: white 1px;
+  color: black;
+}
+
+.navX {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#E6FFF0), to(white));
+  background-image: linear-gradient(#E6FFF0, white);
+  height: auto;
+  position: relative;
+}
+
+/*footer*/
+a {
+  text-decoration: none;
+}
+
+.footer--div {
+  padding: 1rem;
+  margin: 1px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#E6FFF0));
+  background-image: linear-gradient(white, #E6FFF0);
+  text-align: center;
+  height: 150px;
+  width: auto;
+  text-decoration: none;
+  -webkit-text-decoration-color: #7E8CFF;
+          text-decoration-color: #7E8CFF;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer--redes {
+  color: #7E8CFF;
+}
+
+.footer--copyright {
+  color: #7E8CFF;
+  font-weight: 500;
+}
+
+/* paginas */
+
+
+.galeriaArtistico {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  
+}
+
+.galeriaArtistico img {
+  width: 300px;
+  height: auto;
+  border: 2px solid #E6FFF0;
+  margin: 10px;
+}
+
+
+/*# sourceMappingURL=styles.css.map */
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+.fotoventa {
+  max-width: 500px;
+  display: flex;
+}

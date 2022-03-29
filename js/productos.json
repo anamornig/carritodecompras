@@ -1,0 +1,29 @@
+{
+    "fotos": [
+      {
+        "id": 1,
+        "nombre": "Foto 1",
+        "precio": 125,
+        "src": "https://static.wixstatic.com/media/45478f_5f2f450305a74c9a83bd28b90079072d~mv2.jpg/v1/fit/w_1656,h_1080,q_90/45478f_5f2f450305a74c9a83bd28b90079072d~mv2.webp"
+
+      },
+      {
+        "id":2,
+        "nombre": "Foto 2",
+        "precio": 300,
+        "src":"https://static.wixstatic.com/media/45478f_8d9bb6a5da2746c19b10d58744b4d056~mv2.jpg/v1/fit/w_1656,h_1080,q_90/45478f_8d9bb6a5da2746c19b10d58744b4d056~mv2.webp"
+      },
+      {
+        "id":3,
+        "nombre": "Foto 3",
+        "precio": 400,
+        "src":"https://static.wixstatic.com/media/45478f_57d336ac3bee43a1847aae649d9db81a~mv2.jpg/v1/fit/w_1656,h_1080,q_90/45478f_57d336ac3bee43a1847aae649d9db81a~mv2.webp"
+      },
+      {
+        "id":4,
+        "nombre": "Foto 4",
+        "precio": 500,
+        "src":"https://static.wixstatic.com/media/45478f_38504cf716d4480fb5f79c9c43927b25~mv2.jpg/v1/fit/w_1656,h_1080,q_90/45478f_38504cf716d4480fb5f79c9c43927b25~mv2.webp"
+      }
+    ]
+  }
